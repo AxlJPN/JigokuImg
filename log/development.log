@@ -1,0 +1,228 @@
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 10:25:14 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (30.8ms)
+Completed 200 OK in 1091ms (Views: 667.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 10:25:31 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.2ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (140.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (47.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMisawas (20140221153121)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (14.7ms)[0m  [1mCREATE TABLE "misawas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (128.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140221153121"]]
+  [1m[36m (105.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:05:10 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MisawasController#index as HTML
+Completed 500 Internal Server Error in 628ms
+
+NoMethodError (undefined method `getRandomId' for Misawa(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/misawas_controller.rb:4:in `index'
+
+
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (206.1ms)
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:06:12 -0500
+Processing by MisawasController#index as HTML
+Completed 500 Internal Server Error in 22ms
+
+NoMethodError (undefined method `getRandomId' for Misawa(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/misawas_controller.rb:4:in `index'
+
+
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.8ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (99.4ms)
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:06:34 -0500
+Processing by MisawasController#index as HTML
+Completed 500 Internal Server Error in 18ms
+
+NoMethodError (undefined method `getRandomId' for Misawa(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/misawas_controller.rb:4:in `index'
+
+
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.6ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (192.0ms)
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:08:32 -0500
+Processing by MisawasController#index as HTML
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `getRandomId' for Misawa(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/misawas_controller.rb:4:in `index'
+
+
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (43.5ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (26.2ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (129.1ms)
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:10:30 -0500
+Processing by MisawasController#index as HTML
+Completed 500 Internal Server Error in 28ms
+
+NoMethodError (undefined method `getRandomId' for Misawa(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/misawas_controller.rb:4:in `index'
+
+
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.7ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.1ms)
+  Rendered /usr/libexec/openshift/cartridges/c9-0.1/root/lib/ruby/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (126.0ms)
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:10:59 -0500
+Processing by MisawasController#index as HTML
+  [1m[35mMisawa Load (0.6ms)[0m  SELECT "misawas".* FROM "misawas"
+  Rendered misawas/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5551ms (Views: 5530.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/misawas.css?body=1" for 127.10.151.1 at 2014-02-21 12:11:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.10.151.1 at 2014-02-21 12:11:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.10.151.1 at 2014-02-21 12:11:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.10.151.1 at 2014-02-21 12:11:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.10.151.1 at 2014-02-21 12:11:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.10.151.1 at 2014-02-21 12:11:06 -0500
+
+
+Started GET "/assets/misawas.js?body=1" for 127.10.151.1 at 2014-02-21 12:11:06 -0500
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:14:06 -0500
+Processing by MisawasController#index as HTML
+  Rendered misawas/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3840ms (Views: 27.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.10.151.1 at 2014-02-21 12:14:10 -0500
+
+
+Started GET "/assets/misawas.js?body=1" for 127.10.151.1 at 2014-02-21 12:14:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.10.151.1 at 2014-02-21 12:14:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.10.151.1 at 2014-02-21 12:14:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.10.151.1 at 2014-02-21 12:14:10 -0500
+
+
+Started GET "/assets/misawas.css?body=1" for 127.10.151.1 at 2014-02-21 12:14:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.10.151.1 at 2014-02-21 12:14:10 -0500
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:16:22 -0500
+Processing by MisawasController#index as HTML
+  Rendered misawas/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4121ms (Views: 79.4ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.10.151.1 at 2014-02-21 12:16:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.10.151.1 at 2014-02-21 12:16:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.10.151.1 at 2014-02-21 12:16:29 -0500
+
+
+Started GET "/assets/misawas.css?body=1" for 127.10.151.1 at 2014-02-21 12:16:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.10.151.1 at 2014-02-21 12:16:29 -0500
+
+
+Started GET "/assets/misawas.js?body=1" for 127.10.151.1 at 2014-02-21 12:16:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.10.151.1 at 2014-02-21 12:16:29 -0500
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:25:58 -0500
+Processing by MisawasController#index as HTML
+  Rendered misawas/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2180ms (Views: 87.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/misawas.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.10.151.1 at 2014-02-21 12:26:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:01 -0500
+
+
+Started GET "/assets/misawas.css?body=1" for 127.10.151.1 at 2014-02-21 12:26:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:01 -0500
+
+
+Started GET "/" for 127.10.151.1 at 2014-02-21 12:26:30 -0500
+Processing by MisawasController#index as HTML
+  Rendered misawas/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1840ms (Views: 14.6ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/assets/misawas.css?body=1" for 127.10.151.1 at 2014-02-21 12:26:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:32 -0500
+
+
+Started GET "/assets/misawas.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.10.151.1 at 2014-02-21 12:26:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.10.151.1 at 2014-02-21 12:26:33 -0500
